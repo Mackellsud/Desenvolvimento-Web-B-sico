@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links - CSS</title>
+  <style type="text/css">
+    a {
+      text-decoration: none;
+      padding: 5px;
+    }
+    /* Links não visitados */
+      a:link {
+        color: chartreuse;
+      }
+    /* Links Visitados */
+      a:visited {
+        color: dimgrey;
+      }
+    /* Links Hover, passa o cursor sobre o link */
+      a:hover {
+        color: darksalmon;
+        background: darkred;
+      }
+    /* Links Ativos, quando clicado */
+      a:active {
+        color: aqua;
+      }
+  </style>
+</head>
+<body>
+  <h1>Formatando Links - CSS</h1>
+  <hr />
+
+  <a href="https://www.google.com">Google</a> | 
+  <a href="https://www.globo.com">Globo</a> | 
+  <a href="https://www.tecmundo.com.br/">TecMundo</a> |
+  <a href="http://www.bol.com.br">Bol</a>
+</body>
+</html>
