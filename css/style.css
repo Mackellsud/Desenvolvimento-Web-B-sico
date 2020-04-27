@@ -41,10 +41,14 @@ body {
   margin-bottom: 10px;
 }
 
-section {
+#rodape {
   background: #b9c941;
-  width: 100%;
-  height: 400px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+#rodape p {
+  text-align: center;
 }
 
 /********************* Formatação do Menu *********************/
